@@ -2,3 +2,4 @@ matplotlib==3.7.5
 matplotlib-inline==0.1.7
 seaborn==0.13.2
 plotly==5.21.0
+joblib==1.4.0
