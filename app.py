@@ -6,6 +6,9 @@ import streamlit.components.v1 as stc
 from eda_app import run_eda_app
 from ml_app import run_ml_app
 
+# Config Template
+st.set_page_config(page_title="Dashboard", page_icon="😁", layout="wide")
+
 html_temp = """
 		<div style="background-color:#3872fb;padding:10px;border-radius:10px">
 		<h1 style="color:white;text-align:center;">Early Stage DM Risk Data App </h1>
